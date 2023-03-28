@@ -19,14 +19,6 @@
 
 With these resources you can get through it in every level but it not easy anyway
 
-
-
-<div style="width: 50%; min-width: 480px">
-    <img src="https://raw.githubusercontent.com/viruskizz/42bangkok-netpractice/main/assets/woff-cloud-fight.gif" alt="challenge-yaself">
-</div>
-
-.
-
 ---
 
 ## Learn Basic Network :book:
