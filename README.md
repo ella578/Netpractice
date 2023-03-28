@@ -22,7 +22,7 @@ With these resources you can get through it in every level but it not easy anywa
 ---
 
 ## Learn Basic Network :book:
-@@ -195,4 +199,4 @@ Peek the answer to check your solution and earn your point.
+@@ -
 [Classless Inter-Domain Routing]: https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing
 [Subnet mask sheet]: https://dnsmadeeasy.com/support/subnet
 [CIDR]: https://cidr.xyz/
