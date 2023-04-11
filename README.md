@@ -6,7 +6,7 @@ With these resources you can get through it in every level but it not easy anywa
 
 ---
 
-## Learn Basic Network 
+### Learn Basic Network 
 
 Useful links:
 [Classless Inter-Domain Routing]: https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing
@@ -14,13 +14,13 @@ Useful links:
 [CIDR]: https://cidr.xyz/
 [Broadcast Address]: https://en.wikipedia.org/wiki/Broadcast_address# 42-net-practice
 
-# 🪧 Overview
+## Overview
 1. There are 10 levels available for training.
 2. Complete the empty fields and click on button `Check again` to verify whether your configuration is correct or not.
 3. Once the exercise is successful, click on button `Get my config` to download your configuration.
 4. When you have successfully completed a level, click on button `Next level`.
 
-## 🧠 Networking Basics
+## Networking Basics
 ### What is IP?
 IP is a connectionless protocol that operates at the network layer of the OSI model. IP enables communication between hosts by carrying data within packets. Each host is assigned an IP address which is used to ensure that traffic is sent to the correct destination, synonymous in many ways to a postal address that we place on a letter.
 An IP address (in the case of v4) is built upon 32-bits, expressed in four numbers known as octets. Each octet is 8 bits i.e one byte.
@@ -60,6 +60,8 @@ Here is a quick reference table for help when subnetting.
 |255.192.0.0| 	/10| 	11111111.11000000.00000000.00000000| 	10| 	22| 	4194304|
 |255.128.0.0| 	/9| 	11111111.10000000.00000000.00000000| 	9| 	23| 	8388608|
 |255.0.0.0| 	    /8| 	11111111.00000000.00000000.00000000| 	8| 	24| 	16777216| 
+
+
 ### Example
 ```
 Address:   192.168.0.1           11000000.10101000.00000000 .00000001
@@ -67,7 +69,19 @@ Netmask:   255.255.255.0 = 24    11111111.11111111.11111111 .00000000
 Wildcard:  0.0.0.255             00000000.00000000.00000000 .11111111
 =>
 Network:   192.168.0.0/24        11000000.10101000.00000000 .00000000 (Class C)
+Broadcast: 192.168.0.255         11000000.10101000.00000000 .11111111
+HostMin:   192.168.0.1           11000000.10101000.00000000 .00000001
+HostMax:   192.168.0.254         11000000.10101000.00000000 .11111110
+Hosts/Net: 254                   (Private Internet)
+```
+### Tools
+[IP Calculator](https://jodies.de/ipcalc) - ipcalc takes an IP address and netmask and calculates the resulting broadcast, network, Cisco wildcard mask, and host range.
 
+### References
+- [techtarget.com](https://www.techtarget.com/searchnetworking/tip/IP-addressing-and-subnetting-Calculate-a-subnet-mask-using-the-hosts-formula) - How to calculate a subnet mask from hosts and subnets
+- [softwaretestinghelp.com](https://www.softwaretestinghelp.com/subnet-mask-and-network-classes/) - Guide to Subnet Mask (Subnetting) & IP Subnet Calculator
+- [avinetworks.com](https://avinetworks.com/glossary/subnet-mask/) - Glossary Subnet mask
+- [packetcoders.io](https://www.packetcoders.io/a-beginners-guide-to-subnetting/) - A Beginners Guide to Subnetting
 
 
 
